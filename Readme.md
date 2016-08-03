@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Oleg Yushin](https://up.htmlacademy.ru/htmlcss/14/user/108762).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Казанцев](https://htmlacademy.ru/profile/id24186)
 
 ---
 
