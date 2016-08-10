@@ -6,64 +6,66 @@
   </head>
   <body>
     <header class="main-header">
-      <header class="top-header">
-        <div class="container">
+      <div class="top-header">
+        <div class="top-header-container">
           <a class="logo" href="#"><img src="http://placehold.it/220x47" width="220" height="47" alt="ТЕХНОМАРТ"></a>
           <form class="search">
             <button class="btn" type="submit"></button>
-            <lable><input type="text" name="serch" value="">Поиск:</lable>
+            <label><input type="text" name="serch" value="">Поиск:</label>
           </form>
           <div class="user-block">
-            <a class="bookmarks bookmarks-full" href="#">Закладки:0</a>
+            <a class="bookmarks" href="#">Закладки:0</a>
             <a class="cart cart-full" href="#">Корзина:0</a>
             <a class="order" href="#">Оформить заказ</a>
           </div>
         </div>
-      </header>
-      <header class="central-header">
-        <p class="slogan">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-        <div class="header-contacts">
-          <p>+7(812)555-05-55</p>
-          <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
+      </div>
+      <div class="bottom-header-container">
+        <div class="central-header">
+          <p class="slogan">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+          <div class="header-contacts">
+            <p class="phone">+7(812)555-05-55</p>
+            <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
+          </div>
+          <div class="registration">
+            <a class="profile" href="#">Равшан Джамшутович</a>
+            <a href="#">Мои заказы</a>
+            <a href="#">Личный кабинет</a>
+          </div>
         </div>
-        <div class="registration">
-          <a class="profile" href="#"><img src="http://placehold.it/20x18" width="20" height="18">Равшан Джамшутович</a>
-          <a href="#">Мои заказы</a>
-          <a href="#">Личный кабинет</a>
+        <div class="bottom-header">
+          <nav class="main-navigation">
+            <ul>
+              <li>
+                <a href="#">Главная</a>
+              </li>
+              <li>
+                <a href="#">Компания</a>
+              </li>
+              <li>
+                <a href="#">Каталог</a>
+              </li>
+              <li>
+                <a href="#">Новости</a>
+              </li>
+              <li>
+                <a href="#">Спецпредложения</a>
+              </li>
+              <li>
+                <a href="#">Доставка</a>
+              </li>
+              <li>
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-      </header>
-      <div class="bottom-header">
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Главная</a>
-            </li>
-            <li>
-              <a href="#">Компания</a>
-            </li>
-            <li>
-              <a href="#">Каталог</a>
-            </li>
-            <li>
-              <a href="#">Новости</a>
-            </li>
-            <li>
-              <a href="#">Спецпредложения</a>
-            </li>
-            <li>
-              <a href="#">Доставка</a>
-            </li>
-            <li>
-              <a href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </header>
     <main class="container">
       <div class="breadcrumbs">
         <ul>
-          <li><a href="#"><img src="http://placehold.it/15x15" width="15" height="15"></a></li>
+          <li><a class="main-page" href="#">Главная</a></li>
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Инструмент</a></li>
           <li>Перфораторы</li>
@@ -75,20 +77,20 @@
           <p>ФИЛЬТР:</p>
           <fieldset>
             <legend>ЦЕНА:</legend>
+            <div class="line">
+              <div class="progress-line">
+                <div class="runner runner-min">
+                </div>
+                <div class="runner runner-max">
+                </div>
+              </div>
+            </div>
             <input type="text" name="date" value="0">
             <p>-</p>
             <input type="text" name="date" value="30000">
           </fieldset>
-          <div class="line">
-            <div class="progress-line">
-              <div class="runner runner-min">
-              </div>
-              <div class="runner runner-max">
-              </div>
-            </div>
-          </div>
           <fieldset>
-            <legend>ПРОИЗВОДИТЕЛИ:</legend>
+            <legend>Производители:</legend>
             <label><input type="checkbox">BOSCH</label>
             <label><input type="checkbox">ИНТЕРСКОЛ</label>
             <label><input type="checkbox">MAKITA</label>
@@ -96,7 +98,7 @@
             <label><input type="checkbox">HITACHI</label>
           </fieldset>
           <fieldset>
-            <legend>ПИТАНИЕ:</legend>
+            <legend>Питание:</legend>
             <label><input type="radio" name="item">Аккумаляторные</label>
             <label><input type="radio" name="item">Сетевые</label>
           </fieldset>
@@ -110,8 +112,8 @@
             <a href="#">По функционалу</a>
           </div>
           <div class="filter-buttons">
-            <div class="arrow-max"></div>
-            <div class="arrow-min"></div>
+            <a href="# "class="arrow-max">По возрастанию</a>
+            <a href="#" class="arrow-min">По убыванию</a>
           </div>
         </div>
         <div class="selection-list">
