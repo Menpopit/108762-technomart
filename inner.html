@@ -63,141 +63,143 @@
         </div>
       </div>
     </header>
-    <main class="container">
-      <div class="breadcrumbs">
-        <ul>
-          <li><a class="main-page" href="#">Главная</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Инструмент</a></li>
-          <li>Перфораторы</li>
-        </ul>
-      </div>
-      <div class="drills">
-        <h1>ПЕРФОРАТОРЫ</h1>
-        <form class="select-goods">
-          <p>ФИЛЬТР:</p>
-          <fieldset>
-            <legend>ЦЕНА:</legend>
-            <div class="line">
-              <div class="progress-line">
-                <div class="runner runner-min">
-                </div>
-                <div class="runner runner-max">
+    <main>
+      <div class="container">
+        <div class="breadcrumbs">
+          <ul>
+            <li><a class="main-page" href="#">Главная</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Инструмент</a></li>
+            <li>Перфораторы</li>
+          </ul>
+        </div>
+        <div class="drills">
+          <h1>ПЕРФОРАТОРЫ</h1>
+          <form class="select-goods">
+            <p>ФИЛЬТР:</p>
+            <fieldset>
+              <legend>ЦЕНА:</legend>
+              <div class="line">
+                <div class="progress-line">
+                  <div class="runner runner-min">
+                  </div>
+                  <div class="runner runner-max">
+                  </div>
                 </div>
               </div>
+              <input type="text" name="date" value="0">
+              <p>-</p>
+              <input type="text" name="date" value="30000">
+            </fieldset>
+            <fieldset>
+              <legend>Производители:</legend>
+              <label><input type="checkbox">BOSCH</label>
+              <label><input type="checkbox">ИНТЕРСКОЛ</label>
+              <label><input type="checkbox">MAKITA</label>
+              <label><input type="checkbox">DEWALT</label>
+              <label><input type="checkbox">HITACHI</label>
+            </fieldset>
+            <fieldset>
+              <legend>Питание:</legend>
+              <label><input type="radio" name="item">Аккумаляторные</label>
+              <label><input type="radio" name="item">Сетевые</label>
+            </fieldset>
+            <button class="btn" type="submit">ПОКАЗАТЬ</button>
+          </form>
+          <div class="filter">
+            <p>Сортировка:</p>
+            <div class="filter-method">
+              <a href="#">По цене</a>
+              <a href="#">По типу</a>
+              <a href="#">По функционалу</a>
             </div>
-            <input type="text" name="date" value="0">
-            <p>-</p>
-            <input type="text" name="date" value="30000">
-          </fieldset>
-          <fieldset>
-            <legend>Производители:</legend>
-            <label><input type="checkbox">BOSCH</label>
-            <label><input type="checkbox">ИНТЕРСКОЛ</label>
-            <label><input type="checkbox">MAKITA</label>
-            <label><input type="checkbox">DEWALT</label>
-            <label><input type="checkbox">HITACHI</label>
-          </fieldset>
-          <fieldset>
-            <legend>Питание:</legend>
-            <label><input type="radio" name="item">Аккумаляторные</label>
-            <label><input type="radio" name="item">Сетевые</label>
-          </fieldset>
-          <button class="btn" type="submit">ПОКАЗАТЬ</button>
-        </form>
-        <div class="filter">
-          <p>Сортировка:</p>
-          <div class="filter-method">
-            <a href="#">По цене</a>
-            <a href="#">По типу</a>
-            <a href="#">По функционалу</a>
+            <div class="filter-buttons">
+              <a href="# "class="arrow-max">По возрастанию</a>
+              <a href="#" class="arrow-min">По убыванию</a>
+            </div>
           </div>
-          <div class="filter-buttons">
-            <a href="# "class="arrow-max">По возрастанию</a>
-            <a href="#" class="arrow-min">По убыванию</a>
+          <div class="selection-list">
+            <article class="item">
+              <img src="img/item2.png" width="126" height="112">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 3000</p>
+              <p class="old-price">22500 Р.</p>
+              <p class="new-price">15500 Р.</p>
+            </article>
+            <article class="item">
+              <img src="img/item3.png" width="144" height="128">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 6000</p>
+              <p class="old-price">30500 Р.</p>
+              <p class="new-price">25500 Р.</p>
+            </article>
+            <article class="item-active item-new">
+              <a href=""><img src="http://placehold.it/135x38" width="135" height="38">Купить</a>
+              <a href=""><img src="http://placehold.it/135x38" width="135" height="38">В закладки</a>
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 2000</p>
+              <p class="new-price">12500 Р.</p>
+            </article>
+            <article class="item">
+              <img src="img/item2.png" width="126" height="112">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 3000</p>
+              <p class="old-price">22500 Р.</p>
+              <p class="new-price">15500 Р.</p>
+            </article>
+            <article class="item item-new">
+              <img src="img/item3.png" width="144" height="128">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 6000</p>
+              <p class="old-price">30500 Р.</p>
+              <p class="new-price">25500 Р.</p>
+            </article>
+            <article class="item">
+              <img src="img/item4.png" width="126" height="112">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 2000</p>
+              <p class="new-price">15500 Р.</p>
+            </article>
+            <article class="item item-new">
+              <img src="img/item2.png" width="126" height="112">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 3000</p>
+              <p class="old-price">22500 Р.</p>
+              <p class="new-price">15500 Р.</p>
+            </article>
+            <article class="item">
+              <img src="img/item3.png" width="144" height="128">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 6000</p>
+              <p class="old-price">30500 Р.</p>
+              <p class="new-price">25500 Р.</p>
+            </article>
+            <article class="item">
+              <img src="img/item4.png" width="126" height="112">
+              <p>Перфоратор BOCSH</p>
+              <p>BFG 2000</p>
+              <p class="new-price">15500 Р.</p>
+            </article>
           </div>
-        </div>
-        <div class="selection-list">
-          <article class="item">
-            <img src="img/item2.png" width="126" height="112">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 3000</p>
-            <p class="old-price">22500 Р.</p>
-            <p class="new-price">15500 Р.</p>
-          </article>
-          <article class="item">
-            <img src="img/item3.png" width="144" height="128">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 6000</p>
-            <p class="old-price">30500 Р.</p>
-            <p class="new-price">25500 Р.</p>
-          </article>
-          <article class="item-active item-new">
-            <a href=""><img src="http://placehold.it/135x38" width="135" height="38">Купить</a>
-            <a href=""><img src="http://placehold.it/135x38" width="135" height="38">В закладки</a>
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 2000</p>
-            <p class="new-price">12500 Р.</p>
-          </article>
-          <article class="item">
-            <img src="img/item2.png" width="126" height="112">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 3000</p>
-            <p class="old-price">22500 Р.</p>
-            <p class="new-price">15500 Р.</p>
-          </article>
-          <article class="item item-new">
-            <img src="img/item3.png" width="144" height="128">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 6000</p>
-            <p class="old-price">30500 Р.</p>
-            <p class="new-price">25500 Р.</p>
-          </article>
-          <article class="item">
-            <img src="img/item4.png" width="126" height="112">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 2000</p>
-            <p class="new-price">15500 Р.</p>
-          </article>
-          <article class="item item-new">
-            <img src="img/item2.png" width="126" height="112">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 3000</p>
-            <p class="old-price">22500 Р.</p>
-            <p class="new-price">15500 Р.</p>
-          </article>
-          <article class="item">
-            <img src="img/item3.png" width="144" height="128">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 6000</p>
-            <p class="old-price">30500 Р.</p>
-            <p class="new-price">25500 Р.</p>
-          </article>
-          <article class="item">
-            <img src="img/item4.png" width="126" height="112">
-            <p>Перфоратор BOCSH</p>
-            <p>BFG 2000</p>
-            <p class="new-price">15500 Р.</p>
-          </article>
-        </div>
-        <div class="page-button">
-          <a class="page-active" href="#">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">Следующая</a>
+          <div class="page-button">
+            <a class="page-active" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">Следующая</a>
+          </div>
         </div>
       </div>
-    <div class="additional-info">
-      <div class="container">
-        <p class="title-additional-info">Пара слов о перфораторах</p>
-        <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления
-          и долбления отверстий в кирпиче, бетоне и камне.</p>
-        <p>Существуют электромеханические и пневматические перфораторы.
-          Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.
-          В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут
-          совмещены отбойный молоток и ударная дрель.</p>
+      <div class="additional-info">
+        <div class="container">
+          <p class="title-additional-info">Пара слов о перфораторах</p>
+          <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления
+            и долбления отверстий в кирпиче, бетоне и камне.</p>
+          <p>Существуют электромеханические и пневматические перфораторы.
+            Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.
+            В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут
+            совмещены отбойный молоток и ударная дрель.</p>
+        </div>
       </div>
-    </div>
     </main>
     <footer class="main-footer">
       <div class="first-footer">
