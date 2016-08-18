@@ -5,9 +5,288 @@ font-style: normal;
 line-height: 24px;
 color: #000000
 }
+
 h2{
   font-size: 30px;
 }
+
 h3{
   font-size: 36px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  width: 220px;
+}
+
+.search {
+  float: left;
+  width: 100px;
+}
+
+.search button {
+  float: left;
+  width: 40px;
+}
+
+.search input {
+  float: left;
+  width: 40px;
+}
+
+.user-block a {
+  float: right;
+  width: 150px;
+}
+
+.top-header {
+  margin-bottom: 46px;
+}
+
+.slogan {
+  float: left;
+  width: 200px;
+  margin: 0px 60px 0px 50px;
+}
+
+.header-contacts {
+  float: left;
+  width: 275px;
+}
+
+.login-btn {
+  float: right;
+  width: 120px;
+}
+
+.reg-btn {
+  float: right;
+  width: 150px;
+}
+
+.main-navigation li {
+  float: left;
+  width: 128px;
+}
+
+.promo {
+  margin-bottom: 55px;
+}
+
+.promo-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.promo-item:nth-child(3) {
+  margin-right: 0;
+}
+
+.slider {
+  float: left;
+  width: 620px;
+  margin-right: 20px;
+}
+
+.sale, .delivery {
+  float: right;
+  width: 300px;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.popular-block {
+  margin-bottom: 20px;
+}
+
+.popular-title {
+  margin-bottom: 25px;
+}
+
+.title {
+  float: left;
+  width: 320px;
+  margin: 30 0 35 30;
+}
+
+.popular-title .btn {
+  float: right;
+  width: 300px;
+  margin: 25 24 30 0;
+}
+
+.item {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.item p {
+  text-align: center;
+}
+
+.makers {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.makers:nth-child(5),
+.makers:nth-child(9) {
+  margin-right: 0;
+}
+
+.service-list a {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+}
+
+.active-line-description {
+  float: left;
+  width: 320px;
+}
+
+.extra-service-description {
+  float: left;
+  width: 540px;
+  margin-right: 100px;
+}
+
+.contacts {
+  float: left;
+  width: 300px;
+}
+
+.main-footer {
+  margin-top: 86px;
+  padding-bottom: 35px;
+}
+
+.first-footer .logo {
+  float: left;
+  width: 220px;
+  margin-right: 170px;
+}
+
+.footer-navigation li {
+  float: left;
+  width: 90px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 380px;
+}
+
+.footer-promo-navigation li {
+  float: left;
+  width: 130px;
+}
+
+.copyright {
+  float: left;
+  width: 240px;
+  margin-right: 140px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  margin-right: 80px;
+}
+
+.mailto {
+  float: left;
+  width: 160px;
+}
+
+.link {
+  float: left;
+  width: 140px;
+}
+
+
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+.main-header::before {
+  content: ".main-header";
 }
