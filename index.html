@@ -116,7 +116,7 @@
             <p class="title">Популярные товары:</p>
             <a class="btn" href="#">Все популярные товары</a>
           </div>
-          <div>
+          <div class="clearfix">
             <article class="item">
               <img src="img/bfg9000.jpg" width="220" height="170">
               <p>Перфоратор BOCSH</p>
@@ -168,20 +168,34 @@
           <h2>Сервисы</h2>
           <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
           <p>Мы стараемся из всех сил, чтобы сделать ваши покупки приятными.</p>
-          <div>
-            <ul class="service-list clearfix">
+          <div class="clearfix">
+            <div class="service-list clearfix">
+              <ul>
                 <li><a class="active-line" href="#">Доставка</a></li>
                 <li><a href="#">Гарантия</a></li>
                 <li><a href="#">Кредит</a></li>
-            </ul>
-          </div>
-          <div>
-            <div class="active-line-description">
-              <h3>Доставка</h3>
-              <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!</p>
-              <p>Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+              </ul>
             </div>
-          </div>
+            <div class="service-description clearfix">
+              <div class="active-line-description">
+                <h3>Доставка</h3>
+                <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!</p>
+                <p>Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+              </div>
+              <div>
+                <h3>Гарантия</h3>
+                <p>Если купленный у нас товар поломается или заискрит,
+                а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии.
+                Мы обменяем сгоревший товар на новый.
+                <p>Дом уж восстановите как-нибудь сами.</p>
+              </div>
+              <div>
+                <h3>Кредит</h3>
+                <p>Залезть в долговую яму стало проще!</p>
+                <p>Кредитные консультанты придут вам на помощь.</p>
+                <a class="btn" href="#">Отправить заявку</a>
+              </div>
+            </div>
         </div>
       </div>
       <div class="extra-service">
@@ -212,7 +226,13 @@
     <footer class="main-footer">
       <div class="first-footer clearfix">
         <div class="container clearfix">
-          <a class="logo" href="#"><img src="http://placehold.it/220x68" width="220" height="68" alt="ТЕХНОМАРТ"></a>
+          <div class="logo-contacts">
+            <a class="logo" href="#"><img src="http://placehold.it/220x68" width="220" height="68" alt="ТЕХНОМАРТ"></a>
+            <section class="footer-contacts">
+              <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
+              <p>+7(812)555-05-55</p>
+            </section>
+          </div>
           <nav class="footer-navigation">
             <ul class="clearfix">
               <li>
@@ -232,12 +252,8 @@
               </li>
             </ul>
           </nav>
-          <section class="footer-contacts">
-            <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
-            <p>+7(812)555-05-55</p>
-          </section>
           <nav class="footer-promo-navigation">
-            <ul>
+            <ul class="clearfix">
               <li>
                 <a href="#">Материалы</a>
               </li>

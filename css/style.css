@@ -54,6 +54,11 @@ h3{
   float: right;
 }
 
+.user-block a {
+  float:left;
+  margin-left: 20px;
+}
+
 .top-header {
   margin-bottom: 46px;
 }
@@ -70,13 +75,52 @@ h3{
 }
 
 .registration {
-  float: right;
+  float: right;;
+}
+
+.registration a {
+  float: left;
   margin-left: 10px;
 }
 
 .main-navigation li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.breadcrumbs {
+  display: inline-block;
+}
+
+.drills form {
   float: left;
-  width: 128px;
+  width: 220px;
+}
+
+.filter {
+  float: left;
+  width: 700px;
+  height: 38px;
+}
+
+.selection-list {
+  float: right;
+  width: 700px;
+}
+
+.select-item {
+  display: inline-block;
+  width: 220px;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.select-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.item-active a {
+  display: inline-block;
 }
 
 .promo {
@@ -90,7 +134,7 @@ h3{
   margin-bottom: 20px;
 }
 
-.promo-item:nth-child(3) {
+.machine, .sale, .delivery{
   margin-right: 0;
 }
 
@@ -98,13 +142,6 @@ h3{
   float: left;
   width: 620px;
   margin-right: 20px;
-}
-
-.sale, .delivery {
-  float: right;
-  width: 300px;
-  margin-right: 0;
-  margin-bottom: 20px;
 }
 
 .popular-block {
@@ -152,15 +189,14 @@ h3{
   margin-right: 0;
 }
 
-.service-list a {
+.service-list{
   float: left;
-  width: 240px;
   margin-right: 80px;
 }
 
-.active-line-description {
+.service-description {
   float: left;
-  width: 320px;
+  width: 380px;
 }
 
 .extra-service-description {
@@ -185,19 +221,13 @@ h3{
   margin-right: 170px;
 }
 
-.footer-navigation li {
+.logo-contacts {
   float: left;
-  width: 90px;
 }
 
-.footer-contacts {
+.footer-navigation, .footer-promo-navigation, li{
   float: left;
-  width: 380px;
-}
-
-.footer-promo-navigation li {
-  float: left;
-  width: 130px;
+  margin-left: 30px;
 }
 
 .copyright {
