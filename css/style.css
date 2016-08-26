@@ -236,9 +236,13 @@ h3{
   margin-left: 20px;
 }
 
+.second-footer {
+  float: left;
+}
+
 .copyright {
   float: left;
-  width: 240px;
+  width: 200px;
   margin-right: 140px;
 }
 
