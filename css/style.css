@@ -90,7 +90,7 @@ h3{
   margin-right: 40px;
 }
 
-/*----------main------------*/
+/*----------main-inner------------*/
 
 .breadcrumbs li {
   float: left;
@@ -105,38 +105,49 @@ h3{
 .selection-list {
   float: right;
   width: 700px;
+  font-size: 0;
 }
 
 .sort p {
   float: left;
+  font-size: 13px;
 }
 
 .filter-method a {
   float: left;
   margin-left: 30px;
+  font-size: 13px;
 }
 
 .sort-buttons a {
   float: right;
   margin-left: 30px;
+  font-size: 13px;
 }
-
 
 .select-item {
   float: left;
   width: 220px;
   vertical-align: top;
   margin-right: 20px;
+  font-size: 18px;
 }
 
 .select-item:nth-child(3n) {
   margin-right: 0;
 }
 
-.page-button {
-  display: inline-block;
+.old-price, .new-price {
+  font-size: 17px;
 }
 
+.page-button {
+  display: inline-block;
+  font-size: 13px;
+}
+
+
+/*-----main-index----------*/
 .promo {
   margin-bottom: 55px;
 }
@@ -230,14 +241,22 @@ h3{
   margin-left: 30px;
 }
 
-.footer-navigation li,
-.footer-promo-navigation li {
+.footer-navigation ul {
   float: right;
+}
+
+.footer-navigation li {
+  float: left;
   margin-left: 20px;
 }
 
-.second-footer {
+.footer-promo-navigation ul {
+  float: right;
+}
+
+.footer-promo-navigation li {
   float: left;
+  margin-left: 20px;
 }
 
 .copyright {
