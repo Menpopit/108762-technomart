@@ -126,7 +126,7 @@ h3{
 }
 
 .select-item {
-  float: left;
+  display: inline-block;
   width: 220px;
   vertical-align: top;
   margin-right: 20px;
@@ -141,8 +141,9 @@ h3{
   font-size: 17px;
 }
 
-.page-button {
+.paginator {
   display: inline-block;
+  margin-left: 240px;
   font-size: 13px;
 }
 
